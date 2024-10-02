@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        p{
+          font-size: 25px;  
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;    
+        }
+    </style>
+    <meta keywords="">
+    <meta author="Dylan de leo">
+    <meta description="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu 5° exercicio da lista HTML5</title>
+</head>
+<body>
+    <h1>Os Impactos das Mudanças Climáticas na Biodiversidade</h1>
+
+    <h2>Desaparecimento de Espécies</h2>
+
+    <p>As mudanças climáticas estão acelerando o desaparecimento de espécies em todo o mundo.<br>
+         Os habitats naturais estão sendo destruídos, e muitas espécies não conseguem se adaptar<br>
+          rapidamente o suficiente às novas condições ambientais, resultando em um aumento<br>
+           alarmante no número de extinções.</p>
+
+    <h2>Efeitos nos Ecossistemas</h2>
+
+    <p>Os ecossistemas estão se transformando à medida que as temperaturas aumentam e os<br>
+         padrões climáticos mudam. A alteração nas interações entre espécies pode levar a um colapso<br>
+          dos ecossistemas, afetando não apenas a flora e a fauna, mas também as comunidades<br>
+           humanas que dependem deles para sobrevivência.</p>
+    
+</body>
+</html>
