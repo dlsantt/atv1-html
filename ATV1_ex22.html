@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <style>
+            table, th, td{
+                border: 1px solid black;
+                text-align: center;
+            }  
+            th, td{
+                padding: 10px;
+            }  
+        </style>
+         <title>Nome, Sexo e Escolaridade</title>
+    </head>
+    <body>
+        <h2> Form + table </h2>
+        <table>
+            <tr style="width: 60%;">
+                <th>Nome:</th>
+                <th><input type="text" id="Nome" name="Nome"></th>
+
+            </tr>
+            <tr>
+                <td>Sexo:</td>
+                <td><input type="radio" id="Masculino" name="Sexo">
+                    <label for="Masculino">Masculino</label>
+                <input type="radio" id="Feminino" name="Sexo">
+                    <label for="feminino">Feminino</label>
+                </td>
+            </tr>
+                <td colspan="2">Escolaridade:
+                    <select id="Escolaridade"  name="Escolaridade">
+                        <option value="1grau">1grau</option>
+                        <option value="2grau">2grau</option>
+                        <option value="superior">superior</option>
+                    </select>
+
+                </td>
+        </table>
+    </body>
+    </html>
