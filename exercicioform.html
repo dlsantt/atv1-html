@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{
+            border: 3px, ridge;
+            padding: 10px;
+        }
+        .sem{
+            border-style: ridge;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Nome:</td> <td><input type="text" id="nome" name="nome"></td>
+            </tr>
+            <tr>
+                <td>Sexo:</td> <td><input type="radio" id="feminino" name="sexo" value="feminino"><label for="feminino">Feminino</label> <input type="radio" id="masculino" name="sexo" value="masculino"><label for="masculino">Masculino</label></td> 
+            </tr>
+            <tr>
+                <td class="sem" colspan="2">Escolaridade:<select id="escolaridade" name="escolaridade">
+                    <option value="1º Grau">1º Grau</option>
+                    <option value="2º Grau">2º Grau</option>
+                    <option value="Superior">Superior</option>
+                </select></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
