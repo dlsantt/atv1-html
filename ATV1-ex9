@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+         table ,td ,th{ 
+            border: 1px solid black;
+
+        }
+        td{
+            padding: 5px;
+        }
+        .continente{
+            transform: rotate(270deg);
+        }
+    </style>
+    <meta charset="UTF-9">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATV1-ex9</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="4">TABELA DAS BANDEIRAS</th>
+
+        </tr>
+        <tr>
+            <td rowspan="4" colspan="2" class="continente">AMERICA </td>
+        </tr>
+        <tr>
+            <td>BRASIL</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Brasil" target="_blank"><img src="c:\Users\labcaxias\Documents\dylan\ATV1-Dylan de Leo, Pedro gomes, João Vitor\imagens\Brasil.png" width="150" height="90"></a></td>
+        </tr>
+        <tr>
+            <td> ARGENTINA</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Argentina" target="_blank"><img src="argentina.png" width="150" height="90"></a></tr>
+        </tr>
+    
+        <tr>
+            <td> EQUADOR</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Equador" target="_blank"><img src="equador.png" width="150" height="90"></a></tr>
+        </tr>
+
+
+        <tr>
+            <td rowspan="4" colspan="2" class="continente">EUROPA </td>
+        </tr>
+        <tr>
+            <td>PORTUGAL</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Portugal" target="_blank"><img src="potugal.png" width="150" height="90"></a></td>
+        </tr>
+        <tr>
+            <td> FRANÇA</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Fran%C3%A9a" target="_blank"><img src="frança.png" width="150" height="90"></a></tr>
+        </tr>
+    
+        <tr>
+            <td> INGLATERRA</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Inglaterra" target="_blank"><img src="inglaterra.png" width="150" height="90"></a></tr>
+
+
+        <tr>
+            <td rowspan="4" colspan="2" class="continente">ÁSIA </td>
+        </tr>
+        <tr>
+            <td>JAPÃO</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Jap%C3%A3o" target="_blank"><img src="JAPAO.png" width="150" height="90"></a></td>
+        </tr>
+        <tr>
+            <td>CHINA</td>
+            <td><a href="https://pt.wikipedia.org/wiki/China" target="_blank"><img src="CHINA.png" width="150" height="90"></a></tr>
+        </tr>
+            
+        <tr>
+            <td> COREIA DO SUL</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Coreia_do_Sul" target="_blank"><img src="KOREIA-DO-SUL.png" width="150" height="90"></a></tr>
+        </tr>               
+        </tr>
+
+
+        <tr>
+            <td rowspan="4" colspan="2" class="continente"> ÁFRICA</td>
+        </tr>
+        <tr>
+            <td>NIGERIA</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Nig%C3%A9ria" target="_blank"><img src="NIGERIA.png" width="150" height="90"></a></td>
+        </tr>
+        <tr>
+            <td>EGITO</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Egito" target="_blank"><img src="EGITO.png" width="150" height="90"></a></tr>
+        </tr>
+            
+        <tr>
+            <td> AFRICA DO SUL</td>
+            <td><a href="https://pt.wikipedia.org/wiki/%C3%81frica_do_Sul" target="_blank"><img src="AFRICA-DO-SUL.png" width="150" height="90"></a></tr>
+        </tr>               
+        </tr>
+
+
+       
+            <td rowspan="4" colspan="2" class="continente"> OCEANIA</td>
+        </tr>
+        <tr>
+            <td>AUSTRALIA</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Austr%C3%A1lia" target="_blank"><img src="AUSYTRALIA.png" width="150" height="90"></a></td>
+        </tr>
+        <tr>
+            <td>NOVA ZELÂNDIA</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Nova_Zel%C3%A2ndia" target="_blank"><img src="NOVA-ZELANDIA.png" width="150" height="90"></a></tr>
+        </tr>
+            
+        <tr>
+            <td> FIJI</td>
+            <td><a href="https://pt.wikipedia.org/wiki/Fiji" target="_blank"><img src="FIJI.png" width="150" height="90"></a></tr>
+        </tr>               
+        </tr>
+
+
+       
+    </table>
+    
+</body>
+</html>
