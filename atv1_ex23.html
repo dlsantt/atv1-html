@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATV1_ex23</title>
+    <style>
+        table{
+            width: 500px;
+            border-style: ridge;
+            border-collapse: collapse;
+        }
+        .d{
+            text-align: left;
+        }
+        .meio{
+            text-align: right;
+        }
+        .dm{
+            width: 30px;
+        }
+        .ano_nascimento{
+            width: 40px
+        }
+        #tel{
+            width: 85px;
+        }
+        #ram{
+            width: 50px;
+        }
+        #ni{
+            border-style: ridge;
+            border-bottom: 0;
+            border-collapse: collapse;
+        }
+        #s{
+            width: 100px
+        }
+        td{
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr><th class="d">Dados pessoais:</th></tr>
+            <tr><td class="meio">Nome do aluno:</td><td><input type="text" name="nome_do_aluno"></td>
+            </tr>
+            <tr><td class="meio">Nascimento (dd/mm/aaaa):</td><td><input type="number" name="dia_nascimento" class="dm">/<input type="number" name="mes_nascimento" class="dm">/<input type="number" name="ano_nascimento" class="ano_nascimento"></td></tr>
+            <tr><td class="meio">Nome da Mãe:</td><td><input type="text" name="nome_da_mae"></td></tr>
+            <tr><td class="meio">Nome do Pai:</td><td><input type="text" name="nome_do_pai"></td></tr>
+            <tr><td class="meio">Telefone: </td><td>DDD(<input type="number" name="ddd" class="ano_nascimento">)Tel:<input type="number" name="tel" id="tel">Ramal:<input type="number" name="ramal" id="ram"> </td></tr>
+            <tr><td class="meio">Email:</td><td><input type="text" name="Email"></td></tr>
+        </table>
+        <table>
+            <tr id="ni"><th class="d" colspan="2">Informações da Matrícula:</th></tr>
+            <tr>
+            <td rowspan="1">Série:<br><select id="s">
+                <option value="pre-escolar">Pré-escolar</option>
+                <option value="fundamental-1">Ensino Fundamental 1 (1° ano ao 5° ano)</option>
+                <option value="fundamental-2">Ensino Fundamental 2 (6° ano ao 9° ano)</option>
+                <option value="ensino-medio">Ensino Médio</option>
+            </select>
+            </td>
+            <td class="meio">Turno:<br><input type="radio" name="Tarde" value="tarde" id="tarde">
+                <label for="tarde">Manhã</label><br>
+                <input type="radio" name="tarde" value="tarde" id="tarde">
+                <label for="tarde">Tarde</label>
+            </td>
+            <td>Atividades Extracurriculares:<br>
+                <input type="checkbox" id="informática" name="informática" value="informatica">
+                <label for="informatica">Informática</label><br>
+                <input type="checkbox" id="musica" name="musica" value="musica">
+                <label for="musica">Música</label><br>
+                <input type="checkbox" id="Balet" name="Balet" value="Balet">
+                <label for="Balet">Balet</label><br>
+                <input type="checkbox" id="Pintura" name="Pintura" value="Pintura">
+                <label for="Pintura">Pintura</label><br>
+                <input type="checkbox" id="judo" name="judo" value="judo">
+                <label for="judo">Judô</label><br>
+                <input type="checkbox" id="Futebol" name="Futebol" value="Futebol">
+                <label for="Futebol">Futebol</label></td></tr>
+        </table>
+    </form>
+</body>
+</html>
